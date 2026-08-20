@@ -22,40 +22,40 @@ The objective was to transform raw data into a clear, interactive, and informati
 
 ## Tools and technologies
 
-* **Power BI Desktop** — data modelling, analysis, and report development
-* **Power Query** — data cleaning and transformation
-* **DAX** — calculated measures and analytical formulas
-* **M language** — custom transformations in Power Query
-* **Power BI Service** — publishing and sharing reports
-* **Microsoft Excel** — source data format
-* **GitHub** — project documentation and portfolio presentation
+- **Power BI Desktop** — data modelling, analysis, and report development
+- **Power Query** — data cleaning and transformation
+- **DAX** — calculated measures and analytical formulas
+- **M language** — custom transformations in Power Query
+- **Power BI Service** — publishing and sharing reports
+- **Microsoft Excel** — source data format
+- **GitHub** — project documentation and portfolio presentation
 
 ## Skills demonstrated
 
-* Selecting appropriate charts for different analytical questions
-* Applying data visualization principles and avoiding misleading charts
-* Importing structured data from local files and web sources
-* Identifying missing values, errors, inconsistent formats, and incorrect data types
-* Cleaning and transforming data with Power Query
-* Creating custom columns using Power Query and M language
-* Building and formatting interactive Power BI visuals
-* Applying filtering, sorting, drill-down, and hierarchies
-* Creating reusable DAX measures
-* Organizing a report into clear and readable pages
-* Understanding the roles of Power BI Desktop, Power BI Service, and Power BI Mobile
+- Selecting appropriate charts for different analytical questions
+- Applying data visualization principles and avoiding misleading charts
+- Importing structured data from local files and web sources
+- Identifying missing values, errors, inconsistent formats, and incorrect data types
+- Cleaning and transforming data with Power Query
+- Creating custom columns using Power Query and M language
+- Building and formatting interactive Power BI visuals
+- Applying filtering, sorting, drill-down, and hierarchies
+- Creating reusable DAX measures
+- Organizing a report into clear and readable pages
+- Understanding the roles of Power BI Desktop, Power BI Service, and Power BI Mobile
 
 ## Learning journey
 
-| Week | Main topics                                                                       | Practical outcome                                                                     |
-| ---- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| 1    | Visualization principles, chart types, common mistakes, and Power BI architecture | Learned how to select and evaluate visualizations and created a first Power BI visual |
-| 2    | Data types, file formats, local and web data sources, and core visuals            | Imported data from different sources and practised Power BI's main visual types       |
-| 3    | Data preprocessing, the Power Query interface, and data-quality profiling         | Loaded, reviewed, and cleaned the project data                                        |
-| 4    | Visual design, report interactions, and hierarchies                               | Built and formatted the main report visuals                                           |
-| 5    | Power Query built-in functions and M language                                     | Performed additional transformations and created custom columns                       |
-| 6    | DAX fundamentals and measures                                                     | Created calculated measures to support the analysis                                   |
-| 7    | Power BI Service and Power BI Mobile                                              | Learned how reports are published, shared, and viewed across devices                  |
-| 8    | Final project                                                                     | Combined the complete workflow into a Power BI project                                |
+| Week | Main topics | Practical outcome |
+|---|---|---|
+| 1 | Visualization principles, chart types, common mistakes, and Power BI architecture | Learned how to select and evaluate visualizations and created a first Power BI visual |
+| 2 | Data types, file formats, local and web data sources, and core visuals | Imported data from different sources and practised Power BI's main visual types |
+| 3 | Data preprocessing, the Power Query interface, and data-quality profiling | Loaded, reviewed, and cleaned the project data |
+| 4 | Visual design, report interactions, and hierarchies | Built and formatted the main report visuals |
+| 5 | Power Query built-in functions and M language | Performed additional transformations and created custom columns |
+| 6 | DAX fundamentals and measures | Created calculated measures to support the analysis |
+| 7 | Power BI Service and Power BI Mobile | Learned how reports are published, shared, and viewed across devices |
+| 8 | Final project | Combined the complete workflow into a Power BI project |
 
 ## Final project
 
@@ -69,41 +69,44 @@ The project analyzes FIFA World Cup matches played between **1930 and 2014**. Th
 
 The report aims to answer questions such as:
 
-* Which national teams achieved the most wins?
-* Which teams scored the most goals?
-* How did the number of matches and goals change across tournaments?
-* Which tournaments had the highest average number of goals per match?
-* Which host countries, cities, and stadiums held the most matches?
-* How frequently did matches end in a draw?
-* Which national teams appeared most often in World Cup matches?
+- Which national teams achieved the most wins?
+- Which teams scored the most goals?
+- How did the number of matches and goals change across tournaments?
+- Which tournaments had the highest average number of goals per match?
+- Which host countries, cities, and stadiums held the most matches?
+- How frequently did matches end in a draw?
+- Which national teams appeared most often in World Cup matches?
 
 ### Dataset
 
 The dataset contains historical FIFA World Cup match results from **1930 to 2014**.
 
-* **Original file:** `world-cup-results.xlsx`
-* **Source:** [data.world](https://data.world/)
-* **Coverage:** FIFA World Cup matches and results from 1930 to 2014
-* **File format:** Microsoft Excel (`.xlsx`)
+- **Original file:** `world-cup-results.xlsx`
+- **Source:** data.world — Sports Viz Sunday 2018
+- **Coverage:** FIFA World Cup matches and results from 1930 to 2014
+- **File format:** Microsoft Excel (`.xlsx`)
 
 The dataset was imported into Power BI and prepared for analysis using Power Query.
+
+### Project files
+
+- [Download the Power BI report](fifa-world-cup-analysis.pbix)
+- [Download the Excel dataset](world-cup-results.xlsx)
 
 ### Data preparation
 
 The data preparation process included:
 
-* verifying and correcting column data types;
-* identifying missing or invalid values;
-* standardizing text, date, and numerical formats;
-* removing unnecessary rows or columns;
-* creating additional calculated columns where required;
-* preparing the data for analysis and visualization.
-
-> This section will be updated with the exact transformations applied to the final dataset.
+- verifying and correcting column data types;
+- identifying missing or invalid values;
+- standardizing text, date, and numerical formats;
+- removing unnecessary rows or columns;
+- creating additional calculated columns where required;
+- preparing the data for analysis and visualization.
 
 ### DAX measures
 
-DAX measures were created to calculate and compare key World Cup statistics.
+DAX measures were used to calculate and compare key World Cup statistics.
 
 Example:
 
@@ -113,49 +116,51 @@ SUM('World Cup Results'[Home Team Goals])
     + SUM('World Cup Results'[Away Team Goals])
 ```
 
-> The exact table and column names may differ in the final Power BI data model. Additional project measures will be documented here.
+> The table and column names shown above are an example and may differ from the names used in the final Power BI data model.
 
 ### Dashboard
 
-Screenshots of the completed Power BI report will be added to the `images` folder and displayed here.
+The report presents historical FIFA World Cup results through interactive visualizations.
 
-```md
-![FIFA World Cup dashboard](images/dashboard-overview.png)
-```
+#### Dashboard overview
+
+![FIFA World Cup dashboard overview](dashboard-overview.PNG)
+
+#### Geographical analysis
+
+![FIFA World Cup map analysis](map-analysis.PNG)
 
 ### Key findings
 
-The main findings of the analysis will be summarized here after the final dashboard has been documented. This section will highlight the most important patterns in team performance, goals, tournament development, and match results.
+The main findings of the analysis will be added here. This section will highlight the most important patterns in:
 
-## Repository structure
+- national team performance;
+- goals scored across tournaments;
+- changes in World Cup match results over time;
+- host countries, cities, and stadiums;
+- geographical distribution of World Cup matches.
+
+## Repository contents
 
 ```text
 PowerBI-school-project-TalTech/
 ├── README.md
-├── data/
-│   └── world-cup-results.xlsx
-├── images/
-│   └── dashboard-overview.png
-└── power-bi/
-    └── fifa-world-cup-analysis.pbix
+├── dashboard-overview.PNG
+├── fifa-world-cup-analysis.pbix
+├── map-analysis.PNG
+└── world-cup-results.xlsx
 ```
 
-## Project files
-
-- [Download the Power BI report](fifa-world-cup-analysis.pbix)
-- [Download the dataset](world-cup-results.xlsx)
-
-  
 ## Course information
 
-* **Institution:** Tallinn University of Technology (TalTech)
-* **Course:** Data Visualization with Power BI
-* **Instructor:** Olga Dunajeva
-* **Main areas:** data visualization, Power Query, M language, DAX, Power BI Desktop, Power BI Service, and Power BI Mobile
+- **Institution:** Tallinn University of Technology (TalTech)
+- **Course:** Data Visualization with Power BI
+- **Instructor:** Olga Dunajeva
+- **Final score:** 96%
+- **Main areas:** data visualization, Power Query, M language, DAX, Power BI Desktop, Power BI Service, and Power BI Mobile
 
 ## Author
 
 **Evelyn Uusmaa**
 
 Accounting professional transitioning into data analytics, with practical experience in financial data and developing skills in Power BI, SQL, and Python.
-
