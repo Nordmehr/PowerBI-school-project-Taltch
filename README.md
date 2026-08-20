@@ -6,7 +6,7 @@ This repository documents my practical work and learning outcomes from the TalTe
 
 The course focused on the complete Power BI workflow: importing data, assessing and improving data quality, transforming data in Power Query, creating visualizations, writing DAX measures, and preparing reports for use in Power BI Service.
 
-> **Status:** Course completed with mark 96%. Final project documentation is being added to this repository.
+> Status: Course completed with a final score of 96%. Final project documentation is currently being added to this repository.
 
 ## Project objective
 
