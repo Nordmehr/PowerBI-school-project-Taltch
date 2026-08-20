@@ -81,7 +81,7 @@ The report aims to answer questions such as:
 
 The dataset contains historical FIFA World Cup match results from **1930 to 2014**.
 
-* **Original file:** `world_cup_results.xlsx`
+* **Original file:** `world-cup-results.xlsx`
 * **Source:** [data.world](https://data.world/)
 * **Coverage:** FIFA World Cup matches and results from 1930 to 2014
 * **File format:** Microsoft Excel (`.xlsx`)
@@ -133,13 +133,19 @@ The main findings of the analysis will be summarized here after the final dashbo
 PowerBI-school-project-TalTech/
 ├── README.md
 ├── data/
-│   └── world_cup_results.xlsx
+│   └── world-cup-results.xlsx
 ├── images/
 │   └── dashboard-overview.png
 └── power-bi/
     └── fifa-world-cup-analysis.pbix
 ```
 
+## Project files
+
+- [Download the Power BI report](fifa-world-cup-analysis.pbix)
+- [Download the dataset](world-cup-results.xlsx)
+
+  
 ## Course information
 
 * **Institution:** Tallinn University of Technology (TalTech)
