@@ -152,3 +152,4 @@ PowerBI-school-project-TalTech/
 **Evelyn Uusmaa**
 
 Accounting professional transitioning into data analytics, with practical experience in financial data and developing skills in Power BI, SQL, and Python.
+
