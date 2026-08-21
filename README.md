@@ -6,7 +6,7 @@ This repository documents my practical work and learning outcomes from the TalTe
 
 The course covered the complete Power BI workflow: importing data, assessing and improving data quality, transforming data in Power Query, creating visualizations, writing DAX measures, and preparing reports for publication in Power BI Service.
 
-> **Status:** Course completed with a final score of 96%. Final project documentation is currently being added to this repository.
+> **Status:** Course completed with a final score of 96%. 
 
 ## Project objective
 
@@ -129,16 +129,6 @@ The report presents historical FIFA World Cup results through interactive visual
 #### Geographical analysis
 
 ![FIFA World Cup map analysis](map-analysis.PNG)
-
-### Key findings
-
-The main findings of the analysis will be added here. This section will highlight the most important patterns in:
-
-- national team performance;
-- goals scored across tournaments;
-- changes in World Cup match results over time;
-- host countries, cities, and stadiums;
-- geographical distribution of World Cup matches.
 
 ## Repository contents
 
